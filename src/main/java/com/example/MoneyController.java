@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
  * transi
  */
 @RestController
-public class LolController {
+public class MoneyController {
 
     @Autowired
     MoneyService moneyService;

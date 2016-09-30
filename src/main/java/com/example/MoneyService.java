@@ -28,12 +28,12 @@ public class MoneyService {
         to.setMoney(toCount);
 
         UserMoney save = userRepository.save(from);
-        boom(fromCount , toCount);
+        boom();
         userRepository.save(to);
         return save.getMoney();
     }
 
-    private void boom(long fromCount, long toCount) {
+    private void boom() {
         throw new RuntimeException("Boom");
     }
 }

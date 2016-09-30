@@ -11,5 +11,5 @@ public class TransiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TransiApplication.class, args);
 	}
-	
+
 }
